@@ -20,4 +20,4 @@ for index in range(1, count + 1, 50):
     video_urls += [entry.link for entry in feed.entries]
 
 for video_url in video_urls:
-    print video_url
+    print(video_url)
